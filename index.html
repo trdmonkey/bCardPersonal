@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- * ===== REMIX ICONS ====== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- * ======= CSS ====== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- * ============= TYPED JS CDN ============== -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <title>Jorge Luis Lopez</title>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- * Card -->
+        <div class="card">
+            <div class="card__border">
+                <div class="card__perfil">
+                    <img src="./assets/img/George.png" alt="card image" class="card__img">
+                </div>
+            </div>
+
+            <h3 class="card__name">Jorge Luis Lopez</h3><div class="contenedor"><div class="line"></div></div>
+            <span class="card__profession auto-type"></span>
+
+            <!-- * Card Info -->
+            <div class="info">
+                <div class="info__icon">
+                    <i class="ri-chat-1-line"></i>
+                </div>
+
+                <div class="info__border">
+                    <div class="info__perfil">
+                        <img src="./assets/img/George.png" alt="card image" class="info__img">
+                    </div>
+                </div>
+
+                <div class="info__data">
+                    <h3 class="info__name">Ingeniero de software</h3>
+                    <span class="info__profession">Desarrollador Web & Movil</span>
+                    <span class="info__location">Nariño - Colombia</span>
+                </div>
+
+                <div class="info__social">
+                    <a href="https://www.facebook.com/DrumGeorge" target="_blank" class="info__social-link">
+                        <span class="info__social-icon">
+                            <i class="ri-facebook-circle-fill"></i>        
+                        </span>
+                    </a>
+
+                    <a href="https://github.com/trdmonkey" target="_blank" class="info__social-link">
+                        <span class="info__social-icon">
+                            <i class="ri-github-fill"></i>
+                        </span>
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?phone=3245695802&text=Hola!%20Buenos%20días%20" target="_blank" class="info__social-link">
+                        <span class="info__social-icon">
+                            <i class="ri-whatsapp-fill"></i>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["Software Developer","Frontend...","and Backend!"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+
+</body>
+</html>
